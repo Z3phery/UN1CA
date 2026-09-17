@@ -1,8 +1,8 @@
-# Samsung Internet Browser
-# https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser
-LOG "- Downloading Samsung Internet app"
-DOWNLOAD_FILE "$(GET_GALAXY_STORE_DOWNLOAD_URL "com.sec.android.app.sbrowser")" \
-    "$WORK_DIR/system/system/preload/SBrowser/SBrowser.apk"
+# ReSukiSU
+# https://github.com/ReSukiSU/ReSukiSU
+LOG "- Downloading ReSukiSU app"
+DOWNLOAD_FILE "https://github.com/ReSukiSU/ReSukiSU/releases/download/v4.2.0-rc2/ReSukiSU_v4.2.0-rc2_35144-arm64-v8a-release.apk" \
+    "$WORK_DIR/system/system/preload/ReSukiSU/ReSukiSU.apk"
 
 while IFS= read -r i; do
     i="${i//$WORK_DIR\/system\//}"
