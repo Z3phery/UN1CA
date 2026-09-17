@@ -1,6 +1,6 @@
 KERNEL_REPO="https://github.com/Z3phery/kernel_samsung_r8q/releases/latest/download"
 
-LOG_STEP_IN "- Downloading Not kernel"
+LOG_STEP_IN "- Downloading Shadow Kernel"
 if [ -f "$WORK_DIR/kernel/boot.img" ]; then
     rm -f "$WORK_DIR/kernel/boot.img"
 fi
