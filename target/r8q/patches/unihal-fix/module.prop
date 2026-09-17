@@ -1,4 +1,0 @@
-id=camera_unihal_fix
-name=Samsung Unihal Camera Fix
-author=HackMe
-description=MFSR algorithm has been disabled to prevent out-of-bounds writes.
